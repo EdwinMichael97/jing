@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
+    width: 100%;
+
+}
+.left {
+    background: rgba(121, 5, 156, 0.856);
+    width: 250px;
+    height: 450px;
+    border-radius: 0 0 100% 0;
+}
+.right {
+    border-radius: 20px;
+    margin-top: -80%;
+    margin-left: 90px;
+    background: white;
+    box-shadow: 0 20px 20px 0px lightgray;
+    width: 250px;
+    height: 450px;
+    position: relative;
+}
+.text {
+    max-width: 100%;
+    text-align: center;
+    margin:auto;
+    font-size: 13px;
+    padding: 0 30px 30px;
+    line-height: 1.6;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+.header  {
+    position: absolute;
+    background: rgba(121, 5, 156, 0.856);
+    width: 230px;
+    margin: auto ;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    
+}
+.center {
+    background-color: white;
+    width:100px;
+    height: 20px;
+    margin: auto; 
+    margin-top: -6px;
+    border-radius: 10px;
+}
+.nice {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.pic {
+    font-size: 8px;
+    margin: -45px;
+    margin-left: -30px;
+    text-align: center;
+    color: white;
+}
+.same {
+    background-color: lightgrey;
+    color: black;
+    width: 100px;
+    height: 30px;
+    margin: 70px 0 0 0;
+    padding: 10px;
+    border-radius: 15px 10px 10px 0;
+}
+.same p {
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nut {
+    background-color: purple;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    margin-left: 110px;
+    border-radius: 10px 0 10px 10px;
+}
+.nut p {
+    font-size: 12px;
+    color: white;
+    padding: 8px;
+    padding-left: 15px;
+}
+.sam img {
+    width: 40%;
+    height: 40%;
+    margin: 5px;
+}
+#pat {
+    width: 30%;
+    height: 50%;
+}
+.pam p {
+    background-color: purple;
+    width: 120px;
+    height: 50px;
+    margin-left: 110px;
+    border-radius: 10px 0 10px 10px;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+}
+.ham p {
+    background-color: lightgrey;
+    color: black;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px 10px 10px 0;
+    margin-top: 10px;
+}
+.come p{
+    background-color: purple;
+    width: 120px;
+    height: 30px;
+    margin-left: 110px;
+    border-radius: 10px 0 10px 10px;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.comment {
+    width: 225px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: lightgray;
+    border: none;
+    text-align: center;
+}
+@media screen and (min-width: 510px) {
+.container {
+    background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
+    width: 100%;
+}
+.left {
+    background: rgba(121, 5, 156, 0.856);
+    width: 250px;
+    height: 500px;
+    border-radius: 0 0 100% 0;
+    position: inherit;
+}
+.right {
+    border-radius: 20px;
+    margin-top: -32%;
+    margin-left: 12rem;
+    background: white;
+    box-shadow: 0 20px 20px 0px lightgray;
+    width: 250px;
+    height: 450px;
+    position: initial;
+}
+.text {
+    width: 500px;
+    text-align: justify;
+    margin-top: -20rem;
+    margin-left: 32rem;
+    font-size: 13px;
+    padding: 0 30px 30px;
+    line-height: 1.6;
+    float: left;
+}
+}
+
